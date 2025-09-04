@@ -21,13 +21,23 @@ Example Output:
 | "machine learning applications" | Doc2, Doc7, Doc10 |
 
 ---
+### 2. TF-IDF Analysis (notebooks/TF-IDF.ipynb)
+- Explored and implemented **text analysis techniques** using TF-IDF for **English and French** documents.  
+- Key steps:
+  - Text preprocessing (tokenization, stopword removal with NLTK)  
+  - Frequency analysis (word counts, unique terms, most common words)  
+  - Comparative analysis of TF-IDF descriptions between English & French  
+  - Use of Python `collections.Counter` for term frequency tasks  
+- Tools: Python, NLTK, Collections  
+- Example: identified frequent terms after preprocessing (e.g., *“document”, “recherche”* in French; *“idf”, “document”* in English).  
+
+
 
 ## 🛠️ Tools & Libraries
 - Python  
 - NLTK  
 - Scikit-learn  
 - Pandas, NumPy  
-- Matplotlib (for visualizations)  
 
 ---
 
@@ -36,8 +46,5 @@ Example Output:
 - Compare TF-IDF with **BM25 ranking**  
 - Build a simple **search engine interface** using Streamlit  
 
----
 
-## 🔒 Notes
-- The dataset used for testing is small and academic.  
 
